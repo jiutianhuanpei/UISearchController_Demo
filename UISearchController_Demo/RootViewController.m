@@ -36,7 +36,6 @@
     
     self.definesPresentationContext = YES;
     
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -16,3 +16,5 @@ UISearchController_Demo
     self.definesPresentationContext = YES;
     
 ```
+## 有一个问题是:
+只有在第一层(第一个加入UISearchController的那层), _searchVC.searchBar 可以响应操作, 后面的页面再加入UISearchController, _searchVC.searchBar 不再能响应用户操作
